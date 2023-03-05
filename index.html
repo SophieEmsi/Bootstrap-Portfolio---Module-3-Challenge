@@ -26,16 +26,16 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">
           <li class="nav-item active">
-            <a class="nav-link" href="#">Welcome <span class="sr-only">(current)</span></a>
+            <a class="nav-link" href="#welcome">Welcome <span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Work</a>
+            <a class="nav-link" href="#work">Work</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">About</a>
+            <a class="nav-link" href="#about">About</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Contact</a>
+            <a class="nav-link" href="#contact">Contact</a>
           </li>
         </ul>
       </div>
@@ -45,6 +45,7 @@
     <!-- Jumbotron -->
     <div class="jumbotron col-lg-12 col-md-12 col-sm-12 row-lg-12 row-md-12 row-sm-12">
       <div class="jumboCopy">
+        <a id="welcome"></a>
         <h1 class="display-4">I am Sophie McNally</h1>
         <p class="lead">I am learning Front-End Web Development </p>
         <a class="btn btn-primary btn-lg" href="#" role="button">Contact Me</a>  
@@ -56,16 +57,17 @@
     <!-- Cards -->
     <div class="container-fluid content">
       <h2 class="sectionHeading">My Work</h2>
+      <a id="work">
       <div class="row myWork">
 
         <!-- Card 1 -->
         <div class="cardContainer col-lg-6 col-md-6 col-sm-12">
           <div class="card">
-            <img src="Images/Horiseon Image.png" class="card-img-top" alt="...">
+            <img src="Images/Horiseon Image.png" class="card-img-top" alt="image of Horiseon project">
             <div class="card-body">
               <h5 class="card-title">Horiseon - Challenge 1</h5>
               <p class="card-text">A marketing agency require a website to be made more inclusive for all users</p>
-              <a href="#" class="btn btn-primary">Find Out More</a>
+              <a href="https://sophieemsi.github.io/Horiseon-Accessibility---Module-1-Challenge/" class="btn btn-primary">Find Out More</a>
             </div>
           </div>
         </div>
@@ -74,11 +76,11 @@
         <!-- Card 2 -->
         <div class="cardContainer col-lg-6 col-md-6 col-sm-12">
           <div class="card">
-            <img src="Images/Portfolio Image.png" class="card-img-top" alt="...">
+            <img src="Images/Portfolio Image.png" class="card-img-top" alt="image of Portfolio project">
             <div class="card-body">
-              <h5 class="card-title">Portfolio - CHallenge 2</h5>
+              <h5 class="card-title">Portfolio - Challenge 2</h5>
               <p class="card-text">A Portfolio made to showcase projects made while studying Front-End Web Development</p>
-              <a href="#" class="btn btn-primary">Find Out More</a>
+              <a href="https://sophieemsi.github.io/Sophie-Portfolio---Module-2-Challenge/" class="btn btn-primary">Find Out More</a>
             </div>
           </div>
         </div> 
@@ -113,6 +115,7 @@
     <!-- Content -->
     
     <!-- <div class="card mb-3" style="max-width: 100%;"> -->
+      <a id="about"></a>
       <div class="row aboutMe">
         <div class="cardContainer col-lg-3 col-md-4 col-sm-12">
           <img src="Images/Screenshot 2023-03-05 at 12.42.09.png" class="card-img rounded-circle" alt="Image of Sophie McNally">
@@ -123,10 +126,7 @@
             <p class="card-text">I am currently enrolled as a Bootcamp student at University of Birmingham studying Front-End Web
               Development and User Experience.</p>
               <a href="#" class="btn btn-primary">Download CV</a>
-              <h5 class="card-title">About Me</h5>
-            <p class="card-text">I am currently enrolled as a Bootcamp student at University of Birmingham studying Front-End Web
-              Development and User Experience.</p>
-              <a href="#" class="btn btn-primary">Download CV</a>
+
           </div>
         </div>
       </div>
@@ -150,19 +150,43 @@
 
     
     <!-- End content -->
-
-    <!-- Footer -->
-    <footer class="emailContain">
-      <form>
-        <h3 class="sectionHeading">Join Our Mailing List</h3>
-        <div class="form-group">
-          <label for="exampleInputEmail1">Email address</label>
-          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
-            placeholder="Enter email">
+    <a id="contact"></a>
+    <div class="card-deck">
+      <div class="card">
+        <img src="Images/quino-al-8gWEAAXJjtI-unsplash.jpg" class="card-img-top" alt="image of phone">
+        <div class="card-body">
+          <h5 class="card-title">Call Me</h5>
+          <p class="card-text">555.555.5555</p>
         </div>
-        <button type="submit" class="btn btn-primary">Sign Up</button>
-      </form>
-    </footer>
+       </div>
+
+
+      <div class="card">
+        <img src="Images/Screenshot 2023-03-05 at 13.08.24.png" class="card-img-top" alt="image of email">
+        <div class="card-body">
+          <h5 class="card-title">Email Me</h5>
+          <p class="card-text">soph_mcnally@msn.com</p>
+        </div>
+      </div>
+      
+
+      <div class="card">
+        <img src="Images/rubaitul-azad-HLQDfaJUTVI-unsplash.jpg" class="card-img-top" alt="image of github logo">
+        <div class="card-body">
+          <h5 class="card-title">Github</h5>
+          <p class="card-text">View GitHub profile</p>
+        </div>
+      </div>
+    </div>
+    <!-- Footer -->
+    <div class="card">
+      <div class="card-body footer">
+        <button type="button" class="btn btn-light">LinkedIn</button>
+        <button type="button" class="btn btn-light">Twitter</button>
+        <button type="button" class="btn btn-light">Slack</button>
+      </div>
+    </div>
+    
     <!-- End footer -->
 
     <!-- Optional JavaScript -->
