@@ -1,3 +1,5 @@
+
+
 /* Text */
 h1, h2, h3 , h4, h5, h6 {
   font-family: 'Anton', sans-serif;
@@ -15,6 +17,7 @@ p {
 } */
 /* General */
 .customNav {
+ 
   position: fixed;
   width: 100%;
   background: url("../images/transparency.png");
@@ -59,25 +62,37 @@ p {
 
 /* Jumbotron  */
 .jumbotron {
-  background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../Images/marek-piwnicki-G_6kPyje9Lk-unsplash.jpg);
+  background-image: url(../Images/IMG_0419.PNG);
   background-size: cover;
   background-repeat: no-repeat;
-  height: calc(100vh - 25px);
+  height: 520px;
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-bottom: 0px !important;
+  /* margin-top: 10px !important; */
 }
 
 /* Jumbotron copy */
 .jumboCopy {
   width: 70%;
   min-width: 500px;
-  max-width: 700px;
-  color: white;
+  max-width: 500px;
+  color: black;
   text-align: center;
 }
 
+.jumboImage {
+  display: flex;
+  align-items: center !important;
+  justify-content: center !important;
+
+
+}
+.card img {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+}
 /* Cards */
 .content {
   /* background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)); */
