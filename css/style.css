@@ -1,21 +1,12 @@
 
 
-/* Text */
 h1, h2, h3 , h4, h5, h6 {
-  font-family: 'Anton', sans-serif;
+  font-family: Georgia, 'Times New Roman', Times, serif;
 }
 p {
-  font-family: 'Jura', sans-serif;
+  font-family:Georgia, 'Times New Roman', Times, serif;
 }
 
-/* Navigation bar */
-/* h1 {
-  font-size: 30px;
-  display: flex !important;
-  align-items: center !important;
-  justify-content: center;
-} */
-/* General */
 .customNav {
  
   position: fixed;
@@ -40,7 +31,7 @@ p {
   margin: 0px 15px;
 }
 
-/* Navigation dropdown menu */
+
 .dropdown-menu {
   background: url("../images/transparency.png");
   background-color: transparent !important;
@@ -52,7 +43,7 @@ p {
     background: black;
 }
 
-/* Navigation links */
+
 .customNav a {
   color: white !important;
 }
@@ -60,7 +51,7 @@ p {
   font-size: 15px;
 }
 
-/* Jumbotron  */
+
 .jumbotron {
   background-image: url(../Images/IMG_0419.PNG);
   background-size: cover;
@@ -69,10 +60,10 @@ p {
   display: flex;
   align-items: center;
   justify-content: center;
-  /* margin-top: 10px !important; */
+  
 }
 
-/* Jumbotron copy */
+
 .jumboCopy {
   width: 70%;
   min-width: 500px;
@@ -99,10 +90,7 @@ p {
   align-items: center !important;
   justify-content: center !important;
 }
-/* Cards */
-.content {
-  /* background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)); */
-}
+
 .sectionHeading {
   text-align: center;
   padding-top: 20px;
@@ -138,22 +126,8 @@ p {
 .aboutMe {
   background-color: #f2eae4
 }
-/* .sideAccent {
-  background: #007bff;
-  width: 15px;
-}
-.imageContainer img {
-  width: 100%;
-}
-.imageContainer {
-  padding: 50px;
-}
-.valueProp {
-  margin-top: 15px;
-  margin-bottom: 15px;
-} */
 
-/* Footer */
+
 .emailContain {
   background: url(../images/emailBG.jpg);
   background-size: cover;
